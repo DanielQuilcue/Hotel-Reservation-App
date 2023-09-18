@@ -1,0 +1,34 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Hampton by Hilton Bogotá - Usaquén",
+      "description": "Find us in the heart of the Usaquén neighborhood. Spend an afternoon at Baw Thai Spa or see a movie at Cinema Paraíso, just eight minutes away.",
+      "image": "/image/hotel1.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Embassy Suites by Hilton Bogotá Rosales",
+      "description": "Our hotel is in the heart of Bogotá’s financial and commercial district.",
+      "image": "/image/hotel2.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Hilton Bogota",
+      "description": "Find our financial district hotel in North Bogotá. We're within two kilometers of Zona Rosa – home to the city's premium shopping, dining, and nightlife.",
+      "image": "/image/hotel3.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "DoubleTree by Hilton Hotel Bogotá - Parque 93",
+      "description": "We’re within blocks of Parque 93, and Zona Rosa’s shops and nightlife are a 10-minute drive away.",
+      "image": "/image/hotel4.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Hilton Bogota Corferias",
+      "description": "We’re located within Corferias, Bogota's main business center, and are connected to Agora Bogota Convention Center.",
+      "image": "/image/hotel5.jpeg"
+    }
+  ]
+}
