@@ -3,6 +3,8 @@ import { useRoute } from "wouter"
 
 import { Card, CardActions, CardContent, CardMedia, Typography } from "@mui/material";
 
+import BookingForm from "./BookingForm";
+
 const fetchHotel = async (id) => {
   const res = await fetch(`http://localhost:3001/hotels/${id}`);
   if (!res.ok) {
@@ -12,6 +14,7 @@ const fetchHotel = async (id) => {
 }
 
 function HotelDetails() {
+  // eslint-disable-next-line no-unused-vars
   const [match, params] = useRoute("/hotel/:id");
   const {
     data: hotel,
@@ -45,7 +48,7 @@ function HotelDetails() {
         </Typography>
       </CardContent>
       <CardActions>
-        {/* <Button size="small">See details</Button> */}
+      <BookingForm hotel={hotel}/>
       </CardActions>
     </Card>
   )
